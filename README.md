@@ -4,8 +4,10 @@ Instructions on how to install Spanish Acquisition on a new Windows computer. Al
 
 ## Installing Spanish Acquisition
 
-1.  Install python 2.7.18
-
+1.  Install python 2.7.18, verify with,
+    ```
+    C:Python27\python.exe -V
+    ```
     Windows 64 bit installer in "python" folder
 
     Note: If python 3 is/will be installed on your machine, do not add to PATH as this will cause problems.
@@ -24,7 +26,9 @@ Instructions on how to install Spanish Acquisition on a new Windows computer. Al
     Note: This is a python package, but will not appear in "pip list" since it is not (and cannot be) installed by pip
 
 4.  Install all python packages from requirements.txt
-
+    ```
+    C:Python27\python.exe -m pip install -r requirements.txt
+    ```
     Note: The versions of all the packages are important
 
 5. Install the SpanishAcquisitionIQC repo from Github
