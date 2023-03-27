@@ -15,6 +15,7 @@ Instructions on how to install Spanish Acquisition on a new Windows computer. Al
 
 2. Install the Visual C++ Redistributable for the machine
 
+    https://community.chocolatey.org/packages/vcpython27, C++ 9.0 compiler for python 2.7 required or else traits install won't work.
     https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
 
 3.  Install wxPython 3.0.2.0
@@ -26,8 +27,6 @@ Instructions on how to install Spanish Acquisition on a new Windows computer. Al
 
     Note: The versions of all the packages are important
 
-    TODO: Figure out what version of "quantities" works.
-
 5. Install the SpanishAcquisitionIQC repo from Github
 
     link: https://github.com/mainCSG/SpanishAcquisitionIQC
@@ -36,14 +35,14 @@ Instructions on how to install Spanish Acquisition on a new Windows computer. Al
 
     This can be done by running 
     ```
-    C:Python27\python setup.py install
+    C:Python27\python.exe setup.py install
     ```
     from the folder where the repo is located
 
 
 At this point, you should be able to run Spanish Acquition. You can try it out by running
 ```
-C:Python27\python .\examples\acquisition.py
+C:Python27\python.exe .\examples\acquisition.py
 ```
 from the folder where the repo is located. 
 
