@@ -29,7 +29,7 @@ Instructions on how to install Spanish Acquisition on a new Windows computer. Al
     ```
     C:Python27\python.exe -m pip install -r requirements.txt
     ```
-    Note: The versions of all the packages are important
+    Note: NumPy will have to be installed first as Chaco has dependance on it. The versions of all the packages are important
 
 5. Install the SpanishAcquisitionIQC repo from Github
 
