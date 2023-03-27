@@ -29,7 +29,7 @@ pytz==2022.2.1
 pyusb==1.1.0
 PyVISA==1.10.1
 PyVISA-py==0.4.1
-quantities==0+unknown
+quantities==0.12.0
 requests==2.27.1
 scipy==1.2.3
 six==1.16.0
